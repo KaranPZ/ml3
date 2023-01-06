@@ -1,6 +1,6 @@
 import csv
 
-with open("C:\\Users\\pavan\\.spyder-py3\\3lab.csv") as f:
+with open("filename.csv") as f:
     csv_file = csv.reader(f)
     data = list(csv_file)
 
